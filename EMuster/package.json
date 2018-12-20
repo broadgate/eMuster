@@ -1,0 +1,38 @@
+{
+  "name": "emuster",
+  "version": "0.1.0",
+  "description": "Emuster API on express",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test",
+    "bin": "app"
+  },
+  "dependencies": {
+    "ad": "^0.3.2",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "joi": "^14.0.1",
+    "jsonwebtoken": "^8.3.0",
+    "md5": "^2.2.1",
+    "morgan": "^1.9.1",
+    "msnodesqlv8": "^0.6.9",
+    "mssql": "^4.2.2",
+    "node-datetime": "^2.1.2",
+    "rotating-file-stream": "^1.3.9",
+    "uid-generator": "^1.0.0"
+  },
+  "scripts": {
+    "start:dev": "set PORT=3001&&set NODENV=PROD&&node index.js",
+    "start:prod": "set NODENV=PROD&&node index.js",
+    "start": "set  PORT=3001&&set NODENV=PROD&&node index.js"
+  },
+  "keywords": [
+    "emuster",
+    "app",
+    "express"
+  ],
+  "author": "makkpsss",
+  "license": "ISC"
+}
